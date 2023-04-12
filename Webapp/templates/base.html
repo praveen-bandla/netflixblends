@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- uncomment the line below later -->
+<link rel="stylesheet" href="/static/style.css">
+
+<div class="backgroundImage">
+  <img src="{{url_for('static', filename='netflix.jpg')}}" />
+</div>
+<div class="content">
+  <div class="header">
+    <a href="/"><img src="{{url_for('static', filename='logo.png')}}" alt="logo" /> </a>
+    <a href="/"><h1> Blendz! </h1></a>
+  </div>
+  <nav>
+    <li><a href="/">Home</a></li>
+    <li><a href="/submit/">Upload Watch History</a></li>
+    <li><a href="/blend/">Find Your Blend</a></li>
+  </nav>
+  <section class="content">
+    <header>
+      {% block header %}{% endblock %}
+    </header>
+    {% block content %}{% endblock %}
+  </section>
+</div>

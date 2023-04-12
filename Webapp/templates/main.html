@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h2>Have you ever struggled to find something to watch
+    on Netflix with your friend?</h2>
+{% endblock %}
+
+{% block content %}
+<p>
+   Well, Netflix Blendz has just the solution for all 
+   you indecisive couples/pairs out there. <br> <br>
+
+   Just send us your watch history, and our proprietary machine-learning 
+   algorithm will suggest an amazing list of 
+   TV Shows and Movies that the two of you will have a blast watching together. 
+   What's more, we'll perform sophisticated analytics on your data and 
+   see how your watch histories stack up against each other! <br> <br>
+
+   Want to check it out? Just upload your watch history <a href="{{ url_for('submit') }}">here</a>.
+</p>
+{% endblock %}

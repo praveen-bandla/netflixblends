@@ -1,0 +1,98 @@
+html {
+    font-family: sans-serif;
+    padding: 1rem;
+    background-color: black;
+}
+
+.header img{
+    width: 400px;
+    height: 200px;
+    line-height: 0%;
+}
+
+.backgroundImage {
+    Position:fixed;
+    Top: 0;
+    Bottom: 0;
+    Width: 100vh;
+    Height: 100vh;
+    Opacity: 0.3;
+    Z-index: -5000;
+}
+
+.backgroundImage img {
+    width:100vw;
+    height: 100vh;
+}
+.content {
+    padding: 30px;
+}
+
+.header h1{
+    color: white;
+    font-family: optima, sans-serif;
+    font-size: 60px;
+    margin-top: 0;
+}
+
+div.header {
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: CornflowerBlue;
+    text-decoration: none;
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h3{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h4{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+ul{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+p{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+button{
+    font-size: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 8px;
+}
+
+nav{
+    text-align: center;
+    margin: auto;
+    font-size: large;
+}
+
+nav li{
+    padding-right: 30px;
+    display: inline;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
